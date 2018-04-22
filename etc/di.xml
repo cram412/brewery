@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Cram\BreweryApi\Api\BreweryManagementInterface" type="Cram\BreweryApi\Model\BreweryManagement" />
+    <preference for="Cram\BreweryApi\Api\BreweryRepositoryInterface" type="Cram\BreweryApi\Model\ResourceModel\BreweryRepository" />
+    <preference for="Cram\BreweryApi\Api\ConfigProviderInterface" type="Cram\BreweryApi\Model\ConfigProvider" />
+    <preference for="Cram\BreweryApi\Api\DataProviderInterface" type="Cram\BreweryApi\Model\Brewery\DataProvider" />
+    <preference for="Cram\BreweryApi\Api\ProductMapperInterface" type="Cram\BreweryApi\Model\BeerMapper" />
+</config>

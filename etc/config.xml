@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <breweryapi>
+            <general>
+                <api_key>28795503d2966051541cf3161ce92b94</api_key>
+                <url>http://api.brewerydb.com/v2/</url>
+            </general>
+        </breweryapi>
+    </default>
+</config>

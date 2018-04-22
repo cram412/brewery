@@ -1,0 +1,19 @@
+{
+    "name": "cram/module-brewery-api",
+    "description": "Brewery API module",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Oleg Kraminsky",
+            "email": "o.kraminsky@youwe.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cram\\BreweryApi\\": ""
+        }
+    }
+}

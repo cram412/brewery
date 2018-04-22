@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="external_systems" translate="label" sortOrder="510">
+            <label>External systems</label>
+        </tab>
+        <section id="breweryapi" translate="label" sortOrder="10" showInDefault="1" showInWebsite="0"
+                 showInStore="0">
+            <label>Brewery API</label>
+            <tab>external_systems</tab>
+            <resource>Cram_BreweryApi::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0"
+                   showInStore="0">
+                <label>Api config</label>
+                <field id="url" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0"
+                       showInStore="0">
+                    <label>URL</label>
+                </field>
+                <field id="api_key" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0"
+                       showInStore="0">
+                    <label>Api Key</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
